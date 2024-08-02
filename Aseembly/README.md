@@ -11,6 +11,15 @@ to see all valid formats in nasm you can run:
     $ nasm -hf
 
 
+# available system calls 
+
+to see available system calls you can locate the header file via following command
+
+    $ locale sys unistd_32.h
+
+but for the sake of Simplification you can find the file content in **unistd_32_syscalls**
+
+
 ## Just a little Note:
 
 > This whole section is for the case that you want to learn from C-file

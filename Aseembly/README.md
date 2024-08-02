@@ -3,7 +3,7 @@
     $ nasm -f elf32 sample.asm -o sample.o
     $ ld -m elf_i386 sample -o sample
 
-## Just a liitle bit of explanation
+## Just a little bit of explanation
 
 with **-f** we specify the format ( in our case it's x86 which we write it as **elf32** )
 to see all valid formats in nasm you can run:

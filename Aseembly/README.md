@@ -6,4 +6,5 @@ in order to be able to use -m32 in compiling:
 
 
 i had to isntall the following package in Ubuntu:
+
     '$ sudo apt install glibc-source'

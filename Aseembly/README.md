@@ -13,7 +13,7 @@ to see all valid formats in nasm you can run:
 
 ## Just a little Note:
 
-    > This whole section is for the case that you want to learn from C-file
+> This whole section is for the case that you want to learn from C-file
 
 in order to be able to use -m32 in compiling:
 

@@ -41,3 +41,9 @@ for rpm-based linux-distributions the **wordsize.h** is included in **glibc-head
 
     $ sudo dnf install glibc-headers
 
+## Personal Document:
+
+We probably already know that in case of using EAX as sys_calls, we would modify EBX as well but what are the values? and what do they mean?
+
+    mov eax, 3      ; 3 is for reading from user
+    mov ebx, 0      ; 0 ( stdin ), 1 ( stdout ), 2 ( std error ) 

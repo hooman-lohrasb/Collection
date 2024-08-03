@@ -26,7 +26,7 @@ loop:
     mov edi, [cnt]          ; Load cnt into edi
     inc edi                 ; Increment edi
     mov [cnt], edi          ; Store updated edi back to cnt
-    cmp edi, 1000000        ; Compare edi with 1000
+    cmp edi, 1000           ; Compare edi with 1000
     je end                  ; If cnt is 1000, jump to end
 
     ; Check if cnt is divisible by 3
